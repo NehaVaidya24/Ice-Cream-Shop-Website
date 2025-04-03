@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ice-Cream Shop Website</title>
+
+  <!-----------------CSS File-------------------->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!---------------Responsive CSS--------------->
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!---------------Font Awesome CDN----------------->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  <!-----------------Bootstrap 5 CSS CDN---------------->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!----------------Animation CDN------------------------>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+  <!---------------- Swiper CSS -------------------------->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!------------------Icomoon CSS File--------------------->
+  <link rel="stylesheet" href="css/icomoon.css">
+
+</head>
+<body>
+  <!---------------------Navbar Section--------------------->
+  <header class="navbar">
+    <div class="container">
+      <div class="navbar-section">
+        <div class="navbar-logo">
+          <h1>R<span style="color: #fc95c4;">⬤</span>MYK</h1>
+        </div>
+      </div>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="blog.html" class="active">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i> <!-- ☰ Icon -->
+        </div>
+
+        <!-- Close Button (Inside Menu) -->
+        <div class="close-menu" id="closeMenu">
+            <i class="fas fa-times"></i> <!-- ✖ Icon -->
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!---------------------Banner Section--------------------->
+  <section class="banner-section magic-container">
+
+    <div class="banner-bg"></div>
+
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <!-------Slide 1-------->
+        <div class="swiper-slide">
+          <div class="container">
+            <div class="banner-image-content">
+              <div class="banner-name">
+                <h1>Ice<br> Cream</h1>
+                <p>Indulge in the sweetest treat! Scoop up happiness with our creamy, handcrafted ice creams made from the finest ingredients. From classic flavors to exciting new creations, every bite is pure delight</p>
+      
+                <a href="menu.html" class="btn">Order Now</a>
+              </div>
+            </div>
+      
+            <div class="banner-hero-image">
+              <img src="images/banner-img.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-------Slide 2-------->
+        <div class="swiper-slide">
+          <div class="container">
+            <div class="banner-image-content">
+              <div class="banner-name">
+                <h1>Ice<br> Cream</h1>
+                <p>Indulge in the sweetest treats at! Scoop up happiness with our creamy, handcrafted ice creams made from the finest ingredients. From classic flavors to exciting new creations, every bite is pure delight</p>
+      
+                <a href="menu.html" class="btn">Order Now</a>
+              </div>
+            </div>
+      
+            <div class="banner-hero-image">
+              <img src="images/banner-img.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-------Slide 3-------->
+        <div class="swiper-slide">
+          <div class="container">
+            <div class="banner-image-content">
+              <div class="banner-name">
+                <h1>Ice<br> Cream</h1>
+                <p>Indulge in the sweetest treats at! Scoop up happiness with our creamy, handcrafted ice creams made from the finest ingredients. From classic flavors to exciting new creations, every bite is pure delight</p>
+      
+                <a href="menu.html" class="btn">Order Now</a>
+              </div>
+            </div>
+      
+            <div class="banner-hero-image">
+              <img src="images/banner-img.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-------Slide 4-------->
+        <div class="swiper-slide">
+          <div class="container">
+            <div class="banner-image-content">
+              <div class="banner-name">
+                <h1>Ice<br> Cream</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem</p>
+      
+                <a href="menu.html" class="btn">Order Now</a>
+              </div>
+            </div>
+      
+            <div class="banner-hero-image">
+              <img src="images/banner-img.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+
+    </div>
+
+    <!-- Pagination -->
+    <div class="banner-count">
+      <ul>
+        <li class="active">01</li>
+        <li>02</li>
+        <li>03</li>
+        <li>04</li>
+      </ul>
+    </div>
+  </section>
+
+    <!---------------------Service Section-------------------->
+  <section class="service-section">
+    <div class="container">
+      <div class="service-head-content">
+        <h1>Our Ice Cream Services</h1>
+        <hr class="line">
+        <p>Chill, relax, and enjoy our deliciously handcrafted frozen delights!</p>
+      </div>
+    </div>
+
+    <div class="service-content-section">
+      <div class="service-content">
+        <img src="images/serice-1.jpg" alt="">
+        <h2>🍦 Flavors</h2>
+        <p>From classic vanilla and chocolate to exotic mango and bubblegum, we offer a delightful range of flavors to satisfy every craving. Try something new or stick to your favorite – the choice is yours</p>
+      </div>
+
+      <div class="service-content">
+        <img src="images/service-2.jpg" alt="">
+        <h2>🍧 Custom creations</h2>
+        <p>Make your ice cream dreams come true! Choose your base, mix-ins, and toppings to create a one-of-a-kind frozen treat. Perfect for celebrations or just a sweet escape</p>
+      </div>
+
+      <div class="service-content">
+        <img src="images/service-3.jpg" alt="">
+        <h2>🎉 Party & Catering</h2>
+        <p>Indulge in thick, creamy milkshakes and overloaded sundaes, made with premium ingredients. Whether you love extra toppings or a classic blend, we’ve got the perfect treat for you!</p>
+      </div>
+    </div>
+
+    <a href="menu.html" id="btn">Read More</a>
+  </section>
+
+
+   <!---------------------Footer Section--------------------->
+   <footer>
+    <div class="container">
+      <div class="footer-section">
+        <div class="footer-content">
+          <h2>R<span style="color: #fc95c4;">⬤</span>MYK</h2>
+          <p>Scoop up happiness with our creamy, handcrafted ice creams made from the finest ingredients.</p>
+        </div>
+      </div>
+
+      <div class="footer-content">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><a href="index.html"><i class="fas fa-arrow-right" style="color: #fc95c4"></i> Home</a></li>
+          <li><a href="menu.html"><i class="fas fa-arrow-right" style="color: #fc95c4"></i> Menu</a></li>
+          <li><a href="service.html"><i class="fas fa-arrow-right" style="color: #fc95c4"></i> Services</a></li>
+          <li><a href="blog.html"><i class="fas fa-arrow-right" style="color: #fc95c4"></i> Blog</a></li>
+          <li><a href="contact.html"><i class="fas fa-arrow-right" style="color: #fc95c4"></i> Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-content">
+        <h2>Contact Us</h2>
+        <ul>
+          <li> <i class="fas fa-envelope"></i> Email: romykiceshop@gmail.com</li>
+          <li> <i class="fas fa-phone"></i> Phone: +91 7593495986</li>
+        </ul>
+        <h2>Visit Us</h2>
+        <ul>
+          <li> <i class="fas fa-map-marker-alt"></i> Address: Nagpur, Maharashtra, India</li>
+        </ul>
+      </div>
+
+      <div class="footer-content">
+        <h2>News Letter</h2>
+        <div class="letter-box">
+          <input type="text" id="letter" placeholder="Write you Letter Here....">
+          <button id="send-btn"><i class="fas fa-paper-plane"></i></button>
+        </div>
+
+        <div class="social-icons">
+          <ul>
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-whatsapp"></i></li>
+            <li><i class="fab fa-telegram-plane"></i></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </footer>  
+
+  <div class="bottom-section">
+    <p>Copyright&copy; 2025 By NehaVaidya24. All Rights Reserved.</p>
+  </div>
+  <!----------------- Swiper JS ------------------------->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!------------------Canvas js -------------------------->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.3.2/dist/confetti.browser.min.js"></script>
+
+
+  <!-------------------JS File--------------------------->
+  <script src="js/main.js"></script>
+
+  <!------------------Bootstrap JS CDN----------------->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!------------------GSAP CDN--------------------------->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+</body>
+</html>
